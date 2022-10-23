@@ -1,0 +1,401 @@
+body {
+
+ padding: 10px;
+ /* font-family: helvetica,arial,freesans,clean,sans-serif; */
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ color: black;   /* colot texto dentro del body*/
+ font-size:   100%;
+ max-width: 1024px;
+ margin: 0px auto;
+ background-color: white;
+ border: 3px solid;
+ border-color: black;
+ border-radius: 10px;
+
+
+}
+
+a{
+ text-decoration: none;
+ color:black
+}
+
+h1 {
+	
+   
+	color:black;
+
+
+}
+
+
+
+h2 {
+
+
+	text-align: left;
+	padding:0;
+	margin:0;
+	clear:both;
+	font-size: 130%;
+	margin-bottom:-12px;
+	color:black
+    display: flex;
+}
+
+
+
+
+
+#cabecera{
+
+width: 100%;
+
+display: flex;
+float: right;
+align-self: flex-end;
+background-color: rgb(245, 245, 245); 
+
+border-radius: 5%;
+
+}
+
+
+#foto{
+width: 25%;
+align-self: right;
+padding-bottom: 1%;
+
+
+}
+
+#foto img{
+    width: 75%;
+    border-radius: 15%;
+    align-self: center;
+    border: 3px solid;
+    border-color: black;
+}
+
+#presentacion{
+    width: 25%;
+}
+
+#datos{
+    width: 100%;
+    display: flex;
+    padding-right: 3%;
+   
+}
+#superdatos{
+
+    width: 50%;
+    display: flex;
+    padding-right: 3%;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media (max-width: 525px) { 
+    #cabecera{
+
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        }
+
+    #datos{
+        width: 100%;
+        flex-direction: column;
+    }
+   #superdatos{
+        width: 100%;
+       display: flex;
+    flex-direction: column;
+    }
+    #presentacion{
+        width: 100%;
+    }
+    #presentacion span{
+        align-self: center;
+    }
+    #foto{
+        width: 50%;
+        align-self: center;
+        }
+        #foto img{
+            width: 100%;
+            border-radius: 25%;
+            align-self: center;
+        }
+        
+  }
+#contenedor{
+background-color: rgb(255, 255, 255);
+width: 100%;
+
+display: flex;
+}
+
+@media (max-width: 525px) { 
+
+    #contenedor{
+ display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+#barra_izquierda {
+
+
+    width: 30%;
+    border-right: 1px solid rgb(93, 93, 126);
+    padding-right: 2%;
+
+}
+
+
+@media (max-width: 525px) { 
+
+    #barra_izquierda{
+ 
+        width: 100%;
+    }
+}
+#barra_izquierda h2{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.842);
+
+   
+}
+
+#about {
+    width: 100%;
+    text-align: justify;
+    
+   
+}
+
+.contacto{
+    background: transparent ;/**  blue;  **/
+      border-top:      1px #136c13;
+      border-left:     1px #136c13;
+      border-right:    1px #136c13;
+    border-bottom:   1px ;
+    align-self: center;
+    width: 100%;
+    font-size:  100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+   
+  }
+
+ 
+  
+.contacto span {
+     font-size: 90%;
+     display: flex;
+     color: black;
+    width: 100%;
+    
+
+    
+  } 
+
+#cuerpo {
+    width: 67%;
+   background-color: white;
+
+}
+
+@media (max-width: 525px) { 
+
+    #cuerpo{
+ 
+        width: 100%;
+    }
+}
+#formacion{
+    width: 100%;
+    padding-left: 1%;
+  
+   
+  
+}
+#formacion h2{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: blanchedalmond;
+    border-radius: 5%;
+  
+}
+
+#experiencia{
+    width: 100%;
+    padding-left: 1%;
+  
+}
+#experiencia h2{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: blanchedalmond;
+    border-radius: 5%;
+ 
+  
+}
+
+#cursos{
+    width: 100%;
+   align-self: auto;
+  
+}
+#cursos h2{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: blanchedalmond;
+    border-radius: 5%;
+ 
+}
+
+#cursos img{
+    width: 50%;
+        
+      
+    }
+
+@media (max-width: 525px) { 
+    #cursos img{
+        width: 50%;
+    }
+}
+
+
+#lenguajes{
+    width: 100%;
+   align-self: auto;
+  
+}
+#lenguajes h2{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: blanchedalmond;
+    border-radius: 5%;
+    align-self: center;
+  
+}
+
+#espaniol{
+
+
+background-color: rgb(100, 100, 102);
+color: white;
+}
+
+#ingles{
+  
+  
+background-color:  rgb(100, 100, 102);
+    color: white;
+    width: 60%;
+    
+    }
+    
+
+#idioma{
+    border: 3px solid;
+    border-color: rgb(191, 183, 218);
+}
+
+#idioma span {
+
+    font-size: 90%;
+}
+#kills{
+
+        width: 100%;
+        display: flex;
+        padding-right: 1%;
+        flex-direction: column;
+        align-self: left;
+    }
+
+#habilidades{
+        width: 100%;
+        padding-left: 1%;
+     
+        text-align: left;
+      
+    }
+#habilidades h2{
+        background-color: rgba(0, 0, 0, 0.842);
+        color: blanchedalmond;
+        border-radius: 5%;
+     
+      
+    }
+#competencia{
+    width: 33%;
+    padding: 3%;
+  font-size: 90%;
+    align-self: center;
+    margin: 0%;
+    border-radius: 5%;
+    background-color: white;
+    /* background-image: url("./imagenes/posting.png");background-repeat: no-repeat;background-size: cover; */
+}
+
+#mensaje{
+    width: 25%;
+    padding: 3%;
+  
+    align-self: center;
+    margin: 0%;
+    border-radius: 5%;
+    background-color: rgb(252, 245, 245);
+ 
+}
+
+#mensaje img{
+
+    width: 100%;
+    border: 1px solid black;
+border-radius: 5%;
+}
+
+@media (max-width: 525px) { 
+    #competencia{
+        width: 90%;
+    }
+
+    #mensaje{
+        width: 80%;
+    }
+
+
+  
+    #mensaje img{
+            width: 50%;
+        }
+   
+
+
+}
+
+
+#footer{
+    width: 100%;
+
+   
+}
+
+#footer a{
+  color: aliceblue;
+
+}
+
+#footer div{
+    background-color: rgb(100, 100, 102);
+    border: 3px solid black;
+}

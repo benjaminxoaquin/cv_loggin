@@ -1,0 +1,147 @@
+body {
+/* background-color: rgba(3, 5, 94, 0.795); */
+    padding: 10px;
+    /* font-family: helvetica,arial,freesans,clean,sans-serif; */
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;   /* colot texto dentro del body*/
+    font-size:   100%;
+    width: 450px;
+    margin: 0px auto;
+ 
+   /* min-width: 450px; */
+   
+    border-radius: 10px;
+     background-image: url("./imagenes/fondo1.jpg");background-repeat: repeat;background-size: cover;   
+
+   }
+
+  
+#supercontenedor{
+    padding: 10px;
+   
+    border: 3px solid black;
+    width: 100%;
+    margin-top: 20%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imagenes/fondo3.jpg");background-repeat: no-repeat;background-size: cover; 
+   }
+
+#contenedor {
+   background-color: transparent;
+   width: 100%;
+  display: flex;
+   }
+
+#encabezado{
+    width: 100%;
+}
+
+
+#barraizquierda{
+padding-top: 20px;
+    width: 35%;
+    padding-right: 1%;
+  color: azure;
+    /* border-right: 3px solid black; */
+   }
+
+
+#barraizquierda span{
+
+    font-size: 80%;
+   }
+
+#barraderecha{
+       color: white;
+       width: 65%;
+      
+       border: 3px solid rgb(183, 147, 231);
+      /*  border: 3px solid;
+       border-color: rgb(211, 53, 53); */
+       display: flex;
+       flex-direction: column;
+       font-size: 80%;
+       padding-left: 0.5%;
+       border-radius: 5%;
+       background-image: url("./imagenes/gif1.gif");background-repeat: no-repeat;background-size: cover; 
+   }
+
+#barraderecha img {
+
+    padding-left: 1px;
+    padding-right: 1px;
+   }
+
+#barraderecha span{
+       background-color: black;
+   }
+
+  #form-area{
+
+    display: flex;
+    width: 90%;
+    padding-top: 3px;
+    padding-right: 3px;
+    flex-direction: column;
+    font-size: 90%;
+  
+   }
+
+#datos{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    
+      
+   }
+
+/* #formulario{
+
+width: 100%;
+margin-right: 5%;
+font-size: 90%;
+padding-left: 1px;
+
+   } */
+
+/* #qr{
+       padding-top: 10px;
+    width: 50%;
+padding-left: 1%;
+ background-color: bisque; 
+   }
+
+#qr img{
+       width: 100%;
+       border: 1px solid rgb(183, 147, 231);
+   }
+ */
+
+
+
+input{
+       background-color: white;
+       width: 100%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      border-radius: 10%;
+      border: 2px solid black;
+      
+   }
+
+#ingresar{
+    background-color: black;
+color: whitesmoke;
+    width: 105%;
+ text-align: center;
+    font-size: 110%;
+    align-self: center;
+    border: 3px solid rgb(183, 147, 231);
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke;
+   }
